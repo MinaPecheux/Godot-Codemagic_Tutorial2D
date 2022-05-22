@@ -6,6 +6,7 @@ workflows:
         groups:
           - godot
         vars:
+          GODOT_VERSION: 3.4.4
           GODOT_EXEC_URL: https://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/Godot_v${GODOT_VERSION}-stable_osx.universal.zip
           GODOT_TEMPLATES_URL: https://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/Godot_v${GODOT_VERSION}-stable_export_templates.tpz
           GODOT_TEMPLATES_DIR: "/Users/builder/Library/Application Support/Godot/templates"
